@@ -35,11 +35,11 @@
 */
 
 declare(strict_types=1);
-define("COLORS", array("black", "brown", "red", 
+
+define("COLORS", array("black", "brown", "red",
     "orange", "yellow", "green", "blue", "violet", "grey", "white"));
 
 function colorCode(string $color): int
 {
-    return array_search($color, COLORS); 
+    return array_search($color, COLORS);
 }
-
